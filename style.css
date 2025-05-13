@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5EEDC;
+    color: #183B4E;
+}
+header {
+    background-color: #27548A;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    padding: 4em 1em;
+}
+.hero h1 {
+    font-size: 2.5em;
+}
+.btn {
+    background-color: #DDA853;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #183B4E;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.section {
+    padding: 3em 1em;
+    text-align: center;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.product-card {
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+}
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.testimonial-card {
+    background: #fff;
+    padding: 1em;
+    margin: 1em auto;
+    border-left: 4px solid #DDA853;
+    max-width: 400px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #27548A;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    background-color: #183B4E;
+    color: #fff;
+    padding: 1em;
+}
